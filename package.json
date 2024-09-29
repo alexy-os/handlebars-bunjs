@@ -1,0 +1,24 @@
+{
+  "name": "handlebars-bunjs",
+  "version": "1.0.0",
+  "description": "Handlebars with Bun.js",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bun-hbs": "^1.0.0",
+    "@elysiajs/html": "^1.1.1",
+    "@elysiajs/static": "^1.1.1",
+    "elysia": "^1.1.16",
+    "handlebars": "^4.7.8"
+  }
+}
